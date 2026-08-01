@@ -44,7 +44,7 @@ const SCRIPTS_DATA: ScriptItem[] = [
   {
     id: "DRAGON-spoofer",
     title: "DRAGON LOADER",
-    category: "temp spoofer + fortnite external",
+    category: "Fortnite External + Temp Spoofer",
     tag: "LOADER",
     status: "UNDETECTED",
     statusColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/40",
