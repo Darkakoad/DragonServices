@@ -56,37 +56,6 @@ const SCRIPTS_DATA: ScriptItem[] = [
     secondaryLink: { label: "FREE KEY", url: "https://loot-link.com/s?ou9WC1zG" },
     directLink: "https://loot-link.com/s?nTfB79e4",
     author: "Dragon Services"
-  },
-  {
-    id: "rivals-aimbot-v1",
-    title: "RIVALS AIMBOT V1",
-    category: "Roblox — Rivals",
-    tag: "RIVALS",
-    status: "COMING SOON",
-    statusColor: "bg-amber-500/10 text-amber-400 border-amber-500/40",
-    description: "Roblox — Rivals",
-    fullDescription: "Free Roblox Rivals aimbot featuring smooth aim, customizable FOV, prediction, team check, visibility checks, and legit settings.",
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
-    features: ["Aimbot", "FOV Circle", "Prediction", "Team Check", "Config UI"],
-    primaryLink: { label: "Get Script", url: "https://loot-link.com/s?jH9VwiIm" },
-    directLink: "https://loot-link.com/s?e1mmEUXW",
-    author: "Dragon Services"
-  },
-  {
-    id: "DRAGON-fn-cheeto",
-    title: "DRAGON FN CHEETO",
-    category: "Fortnite Tool",
-    tag: "FN CHEETO",
-    status: "COMING SOON",
-    statusColor: "bg-amber-500/10 text-amber-400 border-amber-500/40",
-    description: "Fortnite Tool",
-    fullDescription: "The only truly free Fortnite cheat in 2026. Packed with premium features, frequent updates, and zero paywalls.",
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
-    features: ["Settings UI", "Team Check", "Visual Preview", "Fast Access", "Key System"],
-    primaryLink: { label: "DOWNLOAD", url: "https://lootdest.org/s?RBDWjHjS" },
-    directLink: "https://lootdest.org/s?RBDWjHjS",
-    author: "Dragon Services"
-  }
 ];
 
 export default function DRAGONServicesApp() {
