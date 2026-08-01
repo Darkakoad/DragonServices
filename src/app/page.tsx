@@ -2,17 +2,17 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  ShieldCheck, 
-  Zap, 
-  Sparkles, 
-  ArrowRight, 
-  ArrowLeft, 
-  Download, 
-  Key, 
-  ExternalLink, 
-  Search, 
-  MessageSquare, 
+import {
+  ShieldCheck,
+  Zap,
+  Sparkles,
+  ArrowRight,
+  ArrowLeft,
+  Download,
+  Key,
+  ExternalLink,
+  Search,
+  MessageSquare,
   ChevronRight,
   Monitor,
   Gamepad2,
@@ -48,7 +48,7 @@ const SCRIPTS_DATA: ScriptItem[] = [
     tag: "LOADER",
     status: "UNDETECTED",
     statusColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/40",
-    description: "temp spoofer + fortnite external",
+    description: "Fortnite External + Temp Spoofer",
     fullDescription: "Works on every unlocked motherboard. Permanent spoofing that survives factory resets and Windows reinstalls.",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
     features: ["HWID Reset", "Serial Spoof", "MAC Change", "Cleaner", "Windows Tool"],
@@ -63,7 +63,7 @@ export default function DRAGONServicesApp() {
   const [selectedScript, setSelectedScript] = useState<ScriptItem | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredScripts = SCRIPTS_DATA.filter((s) => 
+  const filteredScripts = SCRIPTS_DATA.filter((s) =>
     s.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
     s.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
     s.tag.toLowerCase().includes(searchQuery.toLowerCase())
@@ -71,7 +71,7 @@ export default function DRAGONServicesApp() {
 
   return (
     <div className="min-h-screen bg-[#050505] text-[#fff8e7] relative overflow-hidden selection:bg-[#f5c85a]/30 selection:text-[#ffe59a]">
-      
+
       {/* Glow Effects & Grid Backdrop */}
       <div className="fixed inset-0 bg-grid-pattern opacity-40 pointer-events-none z-0" />
       <div className="fixed top-[-10%] left-[20%] w-[500px] h-[500px] rounded-full bg-radial from-[#f5c85a]/15 to-transparent blur-3xl pointer-events-none z-0" />
@@ -80,8 +80,8 @@ export default function DRAGONServicesApp() {
 
       {/* Navigation */}
       <header className="sticky top-0 z-50 h-20 px-6 lg:px-16 bg-[#050505]/75 border-b border-[#f5c85a]/15 backdrop-blur-2xl flex items-center justify-between shadow-2xl">
-        <div 
-          onClick={() => setSelectedScript(null)} 
+        <div
+          onClick={() => setSelectedScript(null)}
           className="cursor-pointer flex items-center gap-3 group"
         >
           <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#ffe59a] via-[#f5c85a] to-[#8f6821] p-[1px] shadow-lg shadow-[#f5c85a]/20 group-hover:scale-105 transition-transform duration-300">
@@ -227,7 +227,7 @@ export default function DRAGONServicesApp() {
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0b] via-transparent to-transparent" />
-                      
+
                       {/* Status Badge */}
                       <div className="absolute top-3.5 left-3.5 z-10">
                         <span className={`inline-flex items-center px-3 py-1 rounded-full text-[10px] font-black tracking-widest border backdrop-blur-md shadow-lg ${script.statusColor}`}>
