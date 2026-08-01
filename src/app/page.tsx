@@ -331,8 +331,8 @@ export default function DRAGONServicesApp() {
                   <div className="lg:col-span-4 flex flex-col gap-4">
                     {/* Author Box */}
                     <div className="p-4 rounded-2xl border border-[#f5c85a]/15 bg-white/[0.045] flex items-center gap-3">
-                      <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#fff0b5] to-[#f5c85a] flex items-center justify-center text-[#100b02] font-black text-sm">
-                        IS
+                      <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#fff0b5] to-[#f5c85a] flex items-center justify-center overflow-hidden">
+                        <img src="/logo.png" alt="Dragon Services" className="w-full h-full object-cover" />
                       </div>
                       <div>
                         <b className="text-sm text-[#fff6df] block">Free Premium Tool</b>
@@ -393,8 +393,8 @@ export default function DRAGONServicesApp() {
 
                 {/* Game Strip Direct Link */}
                 <div className="pt-6 border-t border-[#f5c85a]/13 flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-[#050505] border border-[#f5c85a]/20 flex items-center justify-center font-black text-[#f5c85a]">
-                    IS
+                  <div className="w-12 h-12 rounded-xl bg-[#050505] border border-[#f5c85a]/20 flex items-center justify-center overflow-hidden">
+                    <img src="/logo.png" alt="Dragon Services" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <b className="text-sm text-[#fff8e7] block">{selectedScript.title}</b>
