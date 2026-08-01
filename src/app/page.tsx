@@ -43,9 +43,9 @@ interface ScriptItem {
 const SCRIPTS_DATA: ScriptItem[] = [
   {
     id: "DRAGON-spoofer",
-    title: "DRAGON SPOOFER",
+    title: "DRAGON LOADER",
     category: "Windows HWID Tool",
-    tag: "SPOOFER",
+    tag: "LOADER",
     status: "UNDETECTED",
     statusColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/40",
     description: "Windows HWID Tool",
@@ -296,8 +296,8 @@ export default function DRAGONServicesApp() {
                 {/* Header Row */}
                 <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mb-6">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#ffe59a] via-[#f5c85a] to-[#8f6821] p-[1px] shadow-xl">
-                    <div className="w-full h-full bg-[#080705] rounded-[15px] flex items-center justify-center font-black text-[#f5c85a] text-xl">
-                      IS
+                    <div className="w-full h-full bg-[#080705] rounded-[15px] flex items-center justify-center overflow-hidden">
+                      <img src="/logo.png" alt="Dragon Services" className="w-full h-full object-cover" />
                     </div>
                   </div>
                   <div>
