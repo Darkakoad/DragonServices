@@ -55,7 +55,7 @@ const SCRIPTS_DATA: ScriptItem[] = [
     primaryLink: { label: "DOWNLOAD", url: "https://loot-link.com/s?rsvNXUrC" },
     secondaryLink: { label: "FREE KEY", url: "https://loot-link.com/s?ou9WC1zG" },
     directLink: "https://loot-link.com/s?nTfB79e4",
-    author: "DRAGON Scripts"
+    author: "Dragon Services"
   },
   {
     id: "rivals-aimbot-v1",
@@ -70,7 +70,7 @@ const SCRIPTS_DATA: ScriptItem[] = [
     features: ["Aimbot", "FOV Circle", "Prediction", "Team Check", "Config UI"],
     primaryLink: { label: "Get Script", url: "https://loot-link.com/s?jH9VwiIm" },
     directLink: "https://loot-link.com/s?e1mmEUXW",
-    author: "DRAGON Scripts"
+    author: "Dragon Services"
   },
   {
     id: "DRAGON-fn-cheeto",
@@ -85,11 +85,11 @@ const SCRIPTS_DATA: ScriptItem[] = [
     features: ["Settings UI", "Team Check", "Visual Preview", "Fast Access", "Key System"],
     primaryLink: { label: "DOWNLOAD", url: "https://lootdest.org/s?RBDWjHjS" },
     directLink: "https://lootdest.org/s?RBDWjHjS",
-    author: "DRAGON Scripts"
+    author: "Dragon Services"
   }
 ];
 
-export default function DRAGONScriptsApp() {
+export default function DRAGONServicesApp() {
   const [selectedScript, setSelectedScript] = useState<ScriptItem | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -115,13 +115,13 @@ export default function DRAGONScriptsApp() {
           className="cursor-pointer flex items-center gap-3 group"
         >
           <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#ffe59a] via-[#f5c85a] to-[#8f6821] p-[1px] shadow-lg shadow-[#f5c85a]/20 group-hover:scale-105 transition-transform duration-300">
-            <div className="w-full h-full bg-[#080705] rounded-[15px] flex items-center justify-center font-black text-[#f5c85a] text-sm tracking-tighter">
-              IS
+            <div className="w-full h-full bg-[#080705] rounded-[15px] flex items-center justify-center overflow-hidden">
+              <img src="/logo.png" alt="Dragon Services Logo" className="w-full h-full object-cover" />
             </div>
           </div>
           <div className="flex flex-col">
             <span className="font-black text-lg text-[#fff8e7] tracking-tight group-hover:text-[#f5c85a] transition-colors">
-              DRAGON Scripts
+              Dragon Services
             </span>
             <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#f5c85a]">
               Free Premium Tools
@@ -211,7 +211,7 @@ export default function DRAGONScriptsApp() {
                     <div className="relative w-full h-full rounded-full bg-gradient-to-br from-[#ffe59a]/20 via-[#f5c85a]/10 to-transparent border border-[#f5c85a]/30 p-8 flex items-center justify-center backdrop-blur-3xl shadow-2xl">
                       <div className="w-full h-full rounded-full bg-[#080705] border border-[#f5c85a]/40 flex flex-col items-center justify-center text-center p-6 shadow-inner">
                         <ShieldCheck className="w-16 h-16 text-[#f5c85a] mb-2 drop-shadow-[0_0_15px_rgba(245,200,90,0.4)]" />
-                        <span className="font-black text-xl text-[#ffe59a] tracking-tight">DRAGON SCRIPTS</span>
+                        <span className="font-black text-xl text-[#ffe59a] tracking-tight">Dragon Services</span>
                         <span className="text-[10px] font-bold text-[#b9aa86] tracking-widest uppercase mt-1">2026 OFFICIAL</span>
                       </div>
                     </div>
@@ -276,8 +276,8 @@ export default function DRAGONScriptsApp() {
                     {/* Card Body */}
                     <div className="p-5 flex flex-col flex-grow">
                       <div className="flex items-center gap-3 mb-2">
-                        <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-[#fff0b5] via-[#f5c85a] to-[#a87322] flex items-center justify-center text-[#100b02] font-black text-xs shadow-md">
-                          IS
+                        <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-[#fff0b5] via-[#f5c85a] to-[#a87322] flex items-center justify-center overflow-hidden shadow-md">
+                          <img src="/logo.png" alt="Dragon Services" className="w-full h-full object-cover" />
                         </div>
                         <span className="text-[11px] font-black text-[#f5c85a] tracking-widest uppercase">
                           {script.author}
@@ -449,7 +449,7 @@ export default function DRAGONScriptsApp() {
       {/* Footer */}
       <footer className="border-t border-[#f5c85a]/12 bg-[#050505]/80 py-8 px-6 text-center text-xs text-[#786d51]">
         <div className="max-w-7xl mx-auto flex flex-col items-center gap-2">
-          <b className="text-[#fff0bd] text-sm">DRAGON Scripts © 2026</b>
+          <b className="text-[#fff0bd] text-sm">Dragon Services © 2026</b>
           <p>Made by cheaters, for cheaters.</p>
           <p className="text-[#9f9272]">No subscriptions. No memberships. No paywalls. Just completely FREE tools.</p>
         </div>
