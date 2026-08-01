@@ -44,11 +44,11 @@ const SCRIPTS_DATA: ScriptItem[] = [
   {
     id: "DRAGON-spoofer",
     title: "DRAGON LOADER",
-    category: "Windows HWID Tool",
+    category: "temp spoofer + fortnite external",
     tag: "LOADER",
     status: "UNDETECTED",
     statusColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/40",
-    description: "Windows HWID Tool",
+    description: "temp spoofer + fortnite external",
     fullDescription: "Works on every unlocked motherboard. Permanent spoofing that survives factory resets and Windows reinstalls.",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
     features: ["HWID Reset", "Serial Spoof", "MAC Change", "Cleaner", "Windows Tool"],
