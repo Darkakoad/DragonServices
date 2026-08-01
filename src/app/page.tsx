@@ -56,6 +56,7 @@ const SCRIPTS_DATA: ScriptItem[] = [
     secondaryLink: { label: "FREE KEY", url: "https://loot-link.com/s?ou9WC1zG" },
     directLink: "https://loot-link.com/s?nTfB79e4",
     author: "Dragon Services"
+  }
 ];
 
 export default function DRAGONServicesApp() {
